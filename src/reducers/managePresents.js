@@ -1,8 +1,8 @@
 export function managePresents(state, action){
 
   switch (action.type) {
-    case '':
-
+    case 'INCREASE':
+      return();
     default:
       return state;
 
